@@ -1,0 +1,34 @@
+.MainpageFarmBackground {
+    position: absolute;
+width: 1512px;
+height: 907.2px;
+left: 0px;
+top: -482px;
+
+background: url(image.png);
+}
+
+.GreatDeals {
+position: absolute;
+width: 200px;
+height: 26px;
+left: 14px;
+top: 257px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #2F6ECC;
+}
+
+farmBackgroundSection {
+position: absolute;
+width: 1512px;
+height: 309px;
+left: 0px;
+top: 43px;
+}

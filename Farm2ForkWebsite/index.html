@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel = "stylesheet" href = "Header.css">
+    <style>
+  .MainpageFarmBackground {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  
+  background: url(image.png);
+  }
+  
+  .GreatDeals {
+  position: absolute;
+  width: 200px;
+  height: 26px;
+  left: 14px;
+  top: 257px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2F6ECC;
+  }
+  
+  farmBackgroundSection {
+  position: absolute;
+  width: 1512px;
+  height: 309px;
+  left: 0px;
+  top: 43px;
+  }
+  </style>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,5 +45,8 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+        <div class = "farmBackgroundSection"><img class = "MainpageFarmBackground" src="/images/MainpageFarmBackground.png"><img>
+<p class = "GreatDeals">Great Deals!</p>
+</div>
   </body>
 </html>
