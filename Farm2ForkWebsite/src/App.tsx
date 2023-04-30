@@ -1,7 +1,8 @@
-import Message from "./Message"
+import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <div><Message /></div>
+  return <Navbar />;
 }
 
 export default App;
